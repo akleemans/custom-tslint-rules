@@ -1,0 +1,9 @@
+{
+  "extends": "tslint:recommended",
+  "rules": {
+    "no-truthy-falsy": true
+  },
+  "rulesDirectory": [
+    "./tslint-rules"
+  ]
+}
