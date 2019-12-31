@@ -35,8 +35,8 @@
         ],
         "testEnvironment": "node"
     },
-    "author": "Adi Kleemans",
-    "license": "ISC",
+    "author": "Adrianus Kleemans",
+    "license": "MIT",
     "bugs": {
         "url": "https://github.com/akleemans/custom-tslint-rules/issues"
     },

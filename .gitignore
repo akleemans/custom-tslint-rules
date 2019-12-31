@@ -49,7 +49,7 @@ Thumbs.db
 
 prepros-6.config
 
-# Configuration individuelle des API
+# Individual API configuration
 appsettings.???.json
 
 # BabelEdit

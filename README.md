@@ -5,6 +5,6 @@ The folder "tslint-rules" contains custom rules and `tslint.json` has an activat
 
 See [Writing a custom TSLint rule](https://www.kleemans.ch/writing-a-custom-tslint-rule) for more information.
 
-Commands
-- yarn install
-- tests : npm run test
+### Commands
+- Install dependencies: `yarn install`
+- Run tests : `yarn run test`

@@ -1,18 +1,18 @@
 {
-  "compilerOptions": {
-    "module": "commonjs",
-    "target": "es5",
-    "sourceMap": true,
-    "outDir": "dist",
-    "skipLibCheck": true,
-    "lib": [
-      "dom"
-    ]
-  },
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "sourceMap": true,
+        "outDir": "dist",
+        "skipLibCheck": true,
+        "lib": [
+            "dom"
+        ]
+    },
     "exclude": [
-    "node_modules"
-  ],
-  "include": [
-    "tslint-rules"
-  ]
+        "node_modules"
+    ],
+    "include": [
+        "tslint-rules"
+    ]
 }
