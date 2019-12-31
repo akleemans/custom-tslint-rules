@@ -1,0 +1,44 @@
+{
+    "name": "custom-tslint-rules",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "build": "tsc",
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/akleemans/custom-tslint-rules.git"
+    },
+    "devDependencies": {
+        "@types/jest": "^24.0.24",
+        "jest": "^24.9.0",
+        "ts-jest": "^24.2.0"
+    },
+    "dependencies": {
+        "@types/node": "^12.12.21",
+        "codelyzer": "^5.2.1",
+        "tslint": "^5.20.1",
+        "typescript": "^3.7.4"
+    },
+    "jest": {
+        "moduleFileExtensions": [
+            "ts",
+            "tsx",
+            "js"
+        ],
+        "transform": {
+            "^.+\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+        },
+        "testMatch": [
+            "**/**/*.spec.(ts|tsx)"
+        ],
+        "testEnvironment": "node"
+    },
+    "author": "Adi Kleemans",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/akleemans/custom-tslint-rules/issues"
+    },
+    "homepage": "https://github.com/akleemans/custom-tslint-rules#readme"
+}
